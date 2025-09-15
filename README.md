@@ -2,6 +2,8 @@
 This is Laboratory Assignment 2 for the course, Software Engineering 1, taken during the First Semester of Academic Year, 2025-2026, at New Era University.
 
 ## Problem Statement
+**Smart Home Automation**
+
 Imagine you are building a smart home automation system where various devices (lights, thermostat, music player, etc.) can be controlled remotely using a central hub or app. Each device has different functionalities, but you want to create a unified and flexible control mechanism.
 
 Design a system that allows you to control multiple smart home devices with ease. Your goal is to create a solution where:
