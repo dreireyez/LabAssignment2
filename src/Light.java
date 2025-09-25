@@ -1,11 +1,11 @@
 // Receiver
-public class Light {
+public class Light implements Device {
 
-    public String powerOn() {
+    public String turnOn() {
         return "[Light] is ON";
     }
 
-    public String powerOff() {
+    public String turnOff() {
         return "[Light] is OFF";
     }
 }

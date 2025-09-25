@@ -1,5 +1,13 @@
-public class Speaker {
+public class Speaker implements Device {
     private int volume = 50;
+
+    public String turnOn() {
+        return "[Speaker] is ON";
+    }
+
+    public String turnOff() {
+        return "[Speaker] is OFF";
+    }
 
     public String increaseVolume() {
         volume++;

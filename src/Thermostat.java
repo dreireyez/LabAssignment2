@@ -1,6 +1,14 @@
 // Receiver
-public class Thermostat {
+public class Thermostat implements Device {
     private int temp = 22;
+
+    public String turnOn() {
+        return "[Thermostat] is ON]";
+    }
+
+    public String turnOff() {
+        return "[Thermostat] is OFF]";
+    }
 
     public String increaseTemp() {
         temp++;
